@@ -1,12 +1,12 @@
 ellipse {
-	stroke-dasharray: 200;
-	stroke-dashoffset: 200;
+	stroke-dasharray: 250;
+	stroke-dashoffset: 250;
 	animation: animForme 5s linear alternate infinite;
 }
 
 @keyframes animForme {
 	from {
-		stroke-dashoffset: 200;
+		stroke-dashoffset: 250;
 	}
 	to {
 		stroke-dashoffset: 0;
