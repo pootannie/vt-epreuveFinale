@@ -5,6 +5,19 @@ ellipse {
 	animation: animForme 5s linear alternate infinite;
 }
 
+.rouge {
+	fill:red;
+}
+
+.vert {
+	fill:lime;
+}
+
+.rouge, .vert {
+	stroke:blue;
+	stroke-width:3
+}
+
 /*animations*/
 @keyframes animForme {
 	from {
