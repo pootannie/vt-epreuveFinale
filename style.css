@@ -1,11 +1,11 @@
-//ellipse
+/*ellipse*/
 ellipse {
 	stroke-dasharray: 250;
 	stroke-dashoffset: 250;
 	animation: animForme 5s linear alternate infinite;
 }
 
-//animations
+/*animations*/
 @keyframes animForme {
 	from {
 		stroke-dashoffset: 250;
