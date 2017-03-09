@@ -1,4 +1,4 @@
-/*ellipse*/
+/* =========== ELLIPSE =========== */
 ellipse {
 	stroke-dasharray: 250;
 	stroke-dashoffset: 250;
@@ -18,7 +18,8 @@ ellipse {
 	stroke-width:3
 }
 
-/*animations*/
+/* =========== ANIMATION =========== */
+/*rotation*/
 @keyframes rotationForme {
 	from {
 		transform-origin: center center;
@@ -30,6 +31,7 @@ ellipse {
 	}
 }
 
+/* "stroke" animé*/
 @keyframes animForme {
 	from {
 		stroke-dashoffset: 250;
